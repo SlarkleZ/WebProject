@@ -3,7 +3,7 @@ const MemberDB = require('../models/Member');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    res.send('<h1>Register</h1>')
+    res.redirect('/register.html');
 });
 
 router.post('/', (req, res) => {

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Payment Page</title>
+</head>
+
+<body>
+    
+    <form action="/register" method="POST" enctype="application/json">
+
+        <label for="username">Username</label><br>
+        <input class="Register_input" type="text" name="username"><br><br>
+
+        <label for="password">Password</label><br>
+        <input class="Register_input" type="password" name="password"><br><br>
+        
+        <label for="firstname">Firstname</label><br>
+        <input class="Register_input" type="text" name="firstname"><br><br>
+
+        <label for="lastname">Lastname</label><br>
+        <input class="Register_input" type="text" name="lastname"><br><br>
+
+        <label for="DoB">Date of birth</label><br>
+        <input class="Register_input" type="date" name="DoB"><br><br>
+
+        <div>
+            <h3>Gender</h3>
+            <label>
+              <input type="checkbox" class="radio" value="male" name="gender" />Male</label>
+            <label>
+              <input type="checkbox" class="radio" value="female" name="gender" />Female</label>
+        </div><br><br>
+
+        <label for="address">Address</label><br>
+        <input class="Register_input" type="text" name="address"><br><br>
+
+        <label for="email">Email</label><br>
+        <input class="Register_input" type="text" name="email"><br><br>
+
+        <label for="tel">Tel</label><br>
+        <input class="Register_input" type="text" name="tel"><br><br>
+
+        <input type="file" name="ProfilePic" accept="image/*" />
+
+        <button class="Register_button" type="submit"> submit</button>
+    </form>
+</body>
+
+</html>

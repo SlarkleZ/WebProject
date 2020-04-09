@@ -28,5 +28,7 @@ app.get('/', (req, res) => {
 const register = require('./routes/register');
 app.use('/register', register);
 
+app.use(express.static('./public'));
+
 
 app.listen(process.env.port || 8080);
